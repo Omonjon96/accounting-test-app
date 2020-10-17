@@ -1,0 +1,328 @@
+.sign-up{
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 104px;
+}
+
+.wrapper{
+    max-width: 1100px;
+    width: 100%;
+    margin-left: 7%;
+    margin-right: 26%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description{
+    flex: .65;
+    padding-top: 80px;
+}
+
+.description .title{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-bottom: 75px;
+}
+
+.description .title .logo-title{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #2979FF;
+    margin-left: 34px;
+}
+
+.text{
+    margin-bottom: 59px;
+}
+
+.text .text-quote{
+    font-family: Gayathri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: #BABABA;
+}
+
+.text .text-info{
+    max-width: 500px;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 38px;
+    color: #696F79;
+}
+
+.author .author-name{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    color: #696F79;
+}
+
+.sign-up-form{
+    flex: .35;
+    width: 100%;
+}
+
+.go-back{
+    /* position: relative; */
+    display: inline-block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8692A6;
+    margin-bottom: 66px;
+    text-decoration: none;
+} 
+
+.go-back svg{
+    /* position: absolute;
+    content: "";
+    top: 1px;
+    left: -20px; */
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.sign-up-form .title .title-text{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.sign-up-form .subtitle .subtitle-text{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8692A6;
+    margin-bottom: 46px;
+}
+
+.sign-in-google-button{
+    display: inline-block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    padding: 23px 91px 19px 43px;
+    cursor: pointer;
+    margin-bottom: 37px;
+    text-decoration: none;
+}
+
+.sign-in-google-button svg{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+
+
+.line__left-divider{
+    width: 172px;
+    height: 0px;
+    border: 1px solid #F5F5F5;
+}
+
+.line__text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #BABABA;
+}
+
+.line__right-divider{
+    width: 172px;
+    height: 0px;
+    border: 1px solid #F5F5F5;
+}
+
+
+
+.form__label{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #696F79;
+    margin-bottom: 14px;
+}
+
+
+input[type=text]{
+    width: 100%;
+    padding: 23px 150px 24px 30px;
+    margin-top: 8px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #8692A6;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+input[type=text]:not(:last-child){
+    margin-bottom: 24px;
+}
+
+input[type=text]#password{
+    background-image: url(/images/svg/password-visibilty.svg);
+    background-position: right 15px center; 
+    padding-right: 15px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+
+#progressbar {
+    background-color: #C4C4C4;
+    border-radius: 4px; /* (height of inner div) / 2 + padding */
+    padding: 1px;
+}
+  
+#progressbar > div {
+    background-color:#FFC107;
+    width: 63%; /* Adjust with JavaScript */
+    height: 4px;
+    border-radius: 4px;
+}
+
+.form .progressbar__text{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFC107;
+    margin-top: 5px;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #2979FF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* input[type=submit]:hover {
+    background-color: #45a049;
+} */
+
+
+.custom-checkbox {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+.custom-checkbox li {
+    margin: 20px 0;
+}
+
+.custom-checkbox li label{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #696F79;
+}
+
+
+.custom-checkbox li label a{
+    color: #2979FF;
+    text-decoration: underline;
+}
+
+.styled-checkbox {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .styled-checkbox + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .styled-checkbox + label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: #C4C4C4;;
+  }
+
+  .styled-checkbox:hover + label:before {
+    background: #2979FF;
+  }
+
+  .styled-checkbox:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  }
+
+  .styled-checkbox:checked + label:before {
+    background: #2979FF;
+  }
+
+  .styled-checkbox:checked + label:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+
+
+
+.account-info{
+    text-align: center;
+    margin-bottom: 104px;
+    margin-top: 10px;
+}  
+
+.account-info a{
+    color: #2979FF;
+    text-decoration: underline;
+}  

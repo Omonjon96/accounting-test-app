@@ -1,0 +1,167 @@
+.header__top{
+    background: rgba(0, 0, 0, 0.44);
+    min-height: 42px;
+}
+
+.navbar-toggle{
+    display: none;
+}
+
+
+
+.top-wrapper{
+    max-width: 948px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.top-wrapper__contacts{
+    flex-grow: .5;
+    display: flex;
+}
+
+.top-wrapper__contacts span:not(:last-child) { 
+    margin-right: 46px;
+} 
+
+.top-wrapper__info{
+    flex-grow: .3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media-list{
+    list-style-type: none;
+}
+
+.social-media-list a:not(:last-child){
+    margin-right: 13px;
+    cursor: pointer;
+}
+
+.current-language{
+    position: relative;
+    cursor: pointer;
+}
+
+.current-language::before{
+    position: absolute;
+    content: "";
+    top: 2px;
+    left: -35px;
+    background:  center / auto no-repeat url(../../assets/images/language-icon.svg);
+    width: 26px;
+    height: 13px;
+}
+
+/*Header bottom styles*/
+
+.header__bottom{
+    padding-top: 16px;
+}
+
+.bottom-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brand-logo a:not(:last-child){
+    margin-right: 25px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #2979FF;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-menu a{
+    color: #ffffff;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.nav-menu a:hover{
+    color: #2979FF;
+    transition: all .5s ease-in-out;
+}
+
+.nav-menu a:not(:last-child){
+    margin-right: 35px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.user-info a:not(:last-child){
+    margin-right: 18px;
+}
+
+.personal-cabinet{
+    position: relative;
+    cursor: pointer;
+    color: #ffffff;    
+}
+
+.personal-cabinet::before{
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: -30px;
+    background:  center / auto no-repeat url(../../assets/images/user-profile.svg);
+    width: 18px;
+    height: 19px;
+}
+
+.user-sign-up{
+    font-size: 16px;
+    font-weight: 600;
+    background: #2979FF;
+    border-radius: 20px;
+    color: #fff;
+    width: 160px;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 18px;
+    transition: all .3s;
+}
+
+.brand-title{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.brand-title__text{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 87px;
+}
